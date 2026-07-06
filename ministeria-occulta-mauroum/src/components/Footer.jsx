@@ -60,7 +60,7 @@ export default function Footer() {
           <div>
             <p className="eyebrow" style={{ color: '#aaa', marginBottom: 16 }}>Contact</p>
             <p className="body-copy" style={{ color: '#ccc' }}>
-              <a href="mailto:info@occultamauroum.org">info@occultamauroum.org</a>
+              <a href="mailto:moorishoccultministries@gmail.com">moorishoccultministries@gmail.com</a>
             </p>
           </div>
         </div>
