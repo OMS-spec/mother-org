@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
 
         <p className="body-copy" style={{ textAlign: 'center', color: '#777', marginTop: '10vh' }}>
-          © 2026 Ministeria Occulta Mauroum. A nonprofit religious auxiliary. 
+          © 2026 Ministeria Occulta Mauroum. A nonprofit religious auxiliary. ALL RIGHTS PRESERVED AND RESERVED
         </p>
       </div>
     </footer>
