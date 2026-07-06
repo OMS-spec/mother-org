@@ -28,7 +28,7 @@ export default function FeatureBanner() {
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <FadeUp>
             <h2 className="headline" style={{ fontSize: 'clamp(40px, 8vw, 96px)' }}>
-              UNCOVER A NEW<br />VISION OF SERVICE<br />WITH MAUROUM
+              UNCOVER A NEW<br />VISION OF SERVICE<br />WITH MINISTERIA OCCULTA MAUROUM
             </h2>
           </FadeUp>
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '4vh' }}>
@@ -40,7 +40,7 @@ export default function FeatureBanner() {
           </div>
           <FadeUp delay={0.2}>
             <p className="body-copy" style={{ margin: '4vh auto 0', maxWidth: 420 }}>
-              Mauroum redefines mutual assistance and invites members and the
+              Ministeria Occulta Mauroum redefines mutual assistance and invites members and the
               public to explore Moorish science with a fresh perspective.
             </p>
           </FadeUp>
