@@ -34,7 +34,7 @@ export default function Nav() {
         <Link to="/shop" className="text-link">Shop</Link>
         <Link to="/archive" className="text-link">Archive</Link>
       </nav>
-      <Link to="/shop" className="text-link">
+      <Link to="/services" className="text-link">
         Enter →
       </Link>
     </motion.header>
