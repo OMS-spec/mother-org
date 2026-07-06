@@ -48,19 +48,25 @@ export default function Footer() {
             <p className="body-copy" style={{ color: '#ccc' }}><Link to="/shop">Shop</Link></p>
             <p className="body-copy" style={{ color: '#ccc' }}><Link to="/archive">Archive</Link></p>
           </div>
-          <div>
+             <div>
             <p className="eyebrow" style={{ color: '#aaa', marginBottom: 16 }}>Follow</p>
-            <p className="body-copy" style={{ color: '#ccc' }}>Instagram</p>
-            <p className="body-copy" style={{ color: '#ccc' }}>YouTube</p>
+            <p className="body-copy" style={{ color: '#ccc' }}>
+              <a href="https://www.instagram.com/moorishoccultministries" target="_blank" rel="noreferrer">Instagram</a>
+            </p>
+            <p className="body-copy" style={{ color: '#ccc' }}>
+              <a href="https://www.youtube.com/@MoorishOccultMinistries" target="_blank" rel="noreferrer">YouTube</a>
+            </p>
           </div>
           <div>
             <p className="eyebrow" style={{ color: '#aaa', marginBottom: 16 }}>Contact</p>
-            <p className="body-copy" style={{ color: '#ccc' }}>info@occultamauroum.org</p>
+            <p className="body-copy" style={{ color: '#ccc' }}>
+              <a href="mailto:info@occultamauroum.org">info@occultamauroum.org</a>
+            </p>
           </div>
         </div>
 
         <p className="body-copy" style={{ textAlign: 'center', color: '#777', marginTop: '10vh' }}>
-          © 2026 Ministeria Occulta Mauroum. A nonprofit religious corporation.
+          © 2026 Ministeria Occulta Mauroum. A nonprofit religious auxiliary. 
         </p>
       </div>
     </footer>
