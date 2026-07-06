@@ -16,7 +16,7 @@ export default function Hero() {
             <p className="eyebrow" style={{ marginBottom: 16 }}>Our Mission</p>
             <p className="body-copy">
               Ministeria Occulta Mauroum exists to educate, assist, and preserve
-              the culture of Moorish Science of America — for members and the public alike.
+              the culture of The Moorish Science Temple of America — for members and the public alike.
             </p>
           </div>
           <div style={{ maxWidth: 260, textAlign: 'right' }}>
@@ -33,7 +33,7 @@ export default function Hero() {
             className="headline"
             style={{ position: 'absolute', top: '18%', left: '50%', transform: 'translateX(-50%)', zIndex: 1, whiteSpace: 'nowrap', color: '#000' }}
           >
-            PERSONA
+            NOSCE TE IPSUM ET ALLAH
           </h1>
           <motion.div
             style={{ y, opacity, position: 'relative', zIndex: 2, width: '46vw', minWidth: 320, maxWidth: 620 }}
