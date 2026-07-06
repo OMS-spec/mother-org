@@ -8,11 +8,12 @@ export default function FeatureBanner() {
     <section className="section" style={{ overflow: 'hidden', textAlign: 'center' }}>
       <div style={{ position: 'relative' }}>
         <div
-          style={{
-            position: 'absolute', top: '50%', left: 0, width: '100%',
-            transform: 'translateY(-50%)', overflow: 'hidden', opacity: 0.5, zIndex: 0,
-          }}
-        >
+  style={{
+    position: 'absolute', top: '50%', left: '-10vw', width: '120vw',
+    transform: 'translateY(-50%)', overflow: 'hidden', opacity: 0.5, zIndex: 0,
+  }}
+>
+
           <motion.div
             style={{ display: 'flex', gap: 12 }}
             initial={{ x: 0 }}
