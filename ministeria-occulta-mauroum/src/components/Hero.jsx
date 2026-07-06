@@ -20,7 +20,7 @@ export default function Hero() {
             </p>
           </div>
           <div style={{ maxWidth: 260, textAlign: 'right' }}>
-            <p className="eyebrow" style={{ marginBottom: 16 }}>Est. Records</p>
+            <p className="eyebrow" style={{ marginBottom: 16 }}>Est. 2026</p>
             <p className="body-copy" style={{ marginLeft: 'auto' }}>
               Charity, mutual assistance, employment, and cultural education —
               recorded and rendered for the Americas.
