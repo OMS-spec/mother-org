@@ -1,9 +1,9 @@
 export const products = [
   {
-    id: 'moorish-heritage-manual',
-    title: 'Moorish Heritage Manual',
+    id: 'moorish-american-health-manual',
+    title: 'Moorish American Health Manual',
     category: 'Publications',
-    price: 24,
+    price: 8 / 17 / 28,
     edition: 'First Printing',
     season: 'Archive I',
     description: 'A foundational text recording the culture, principles, and history of the Moorish Science community for members and the public.',
