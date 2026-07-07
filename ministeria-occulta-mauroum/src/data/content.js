@@ -41,6 +41,7 @@ export const products = [
   },
 ]
 
+// src/data/content.js
 export const services = [
   {
     id: 'membership-orientation',
@@ -48,6 +49,7 @@ export const services = [
     duration: '60 min',
     price: 0,
     description: 'An introductory session covering the principles, history, and structure of Ministeria Occulta Mauroum for prospective members.',
+    calEventTypeId: membership-orientation, // replace with real id
   },
   {
     id: 'mutual-assistance-consultation',
@@ -55,22 +57,26 @@ export const services = [
     duration: '45 min',
     price: 0,
     description: 'Confidential guidance for members seeking charitable assistance, employment support, or housing referrals.',
+    calEventTypeId: mutual-assistance-consultation, // replace with real id
   },
   {
     id: 'cultural-education-session',
     title: 'Cultural Education Session',
-    duration: '90 min',
-    price: 15,
+    duration: '60 min',
+    price: 0,
     description: 'A guided study of Moorish science, religion, and culture for members and the general public.',
+    calEventTypeId: cultural-education-session, // replace with real id
   },
   {
-    id: 'temple-ceremony-booking',
-    title: 'Temple Ceremony Booking',
+    id: 'general-reading',
+    title: 'General Reading',
     duration: 'Varies',
-    price: 0,
+    price: 88,
     description: 'Reserve a place at an upcoming temple ceremony or observance.',
+    calEventTypeId: general-reading, // replace with real id
   },
 ]
+
 
 export const archiveCollections = [
   { id: 'module', title: 'Module', season: 'Records', year: '2020', image: '/assets/archive-01.jpg' },
