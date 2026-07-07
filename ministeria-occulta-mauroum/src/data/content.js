@@ -45,7 +45,7 @@ export const services = [
     duration: '60 min',
     price: 0,
     description: 'An introductory session covering the principles, history, and structure of Ministeria Occulta Mauroum for prospective members.',
-    calEventTypeId: 111111, // replace with real id
+    calEventTypeId: 6239970, // replace with real id
   },
   {
     id: 'mutual-assistance-consultation',
@@ -53,7 +53,7 @@ export const services = [
     duration: '45 min',
     price: 0,
     description: 'Confidential guidance for members seeking charitable assistance, employment support, or housing referrals.',
-    calEventTypeId: 222222, // replace with real id
+    calEventTypeId: 6240007, // replace with real id
   },
   {
     id: 'cultural-education-session',
@@ -61,7 +61,7 @@ export const services = [
     duration: '60 min',
     price: 0,
     description: 'A guided study of Moorish science, religion, and culture for members and the general public.',
-    calEventTypeId: 333333, // replace with real id
+    calEventTypeId: 6241057, // replace with real id
   },
   {
     id: 'general-reading',
@@ -69,7 +69,7 @@ export const services = [
     duration: 'Varies',
     price: 88,
     description: 'Reserve a place at an upcoming temple ceremony or observance.',
-    calEventTypeId: 444444, // replace with real id
+    calEventTypeId: 6217315, // replace with real id
   },
 ]
 
