@@ -12,28 +12,36 @@ export default function Shop() {
             Publications, Regalia &amp; Emblems
           </h1>
           <p className="body-copy" style={{ marginTop: 24, maxWidth: 480 }}>
-            Proceeds support charitable works, mutual assistance, and the
-            preservation of Moorish science and culture across the Americas.
+            Proceeds support charitable works, mutual assistance, and the preservation of Moorish
+            science and culture across the Americas.
           </p>
         </FadeUp>
 
         <div
           style={{
-            display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '6vw 4vw',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(2, 1fr)',
+            gap: '6vw 4vw',
             marginTop: '10vh',
           }}
         >
           {products.map((p, i) => (
-            <Link key={p.id} to={`/shop/${p.id}`} style={{ display: 'block' }}>
-              <ImageReveal src={p.image} alt={p.title} style={{ height: '52vh' }} />
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 16 }}>
-                <div>
-                  <p className="eyebrow">{p.title}</p>
-                  <p className="body-copy">{p.category}</p>
+            <FadeUp key={p.id} delay={i * 0.05}>
+              <Link to={`/shop/${p.id}`} style={{ display: 'block' }}>
+                <ImageReveal src={p.image} alt={p.title} style={{ height: '52vh' }} />
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 16 }}>
+                  <div>
+                    <p className="eyebrow">{p.title}</p>
+                    <p className="body-copy">{p.category}</p>
+                  </div>
+                  <p className="eyebrow">
+                    {p.priceOptions
+                      ? `From $${Math.min(...p.priceOptions.map((o) => o.price))}`
+                      : `$${p.price}`}
+                  </p>
                 </div>
-                <p className="eyebrow">${p.price}</p>
-              </div>
-            </Link>
+              </Link>
+            </FadeUp>
           ))}
         </div>
       </div>
