@@ -15,12 +15,12 @@ export default function Footer() {
         <img
           src="/assets/footer-left.jpg"
           alt=""
-          style={{ position: 'absolute', left: -40, bottom: -40, width: 260, opacity: 0.9, filter: 'grayscale(1) contrast(1.1)' }}
+          style={{ position: 'absolute', left: 0, bottom: 0, width: 260, opacity: 0.9, filter: 'grayscale(1) contrast(1.1)' }}
         />
         <img
           src="/assets/footer-right.jpg"
           alt=""
-          style={{ position: 'absolute', right: -40, bottom: -40, width: 260, opacity: 0.9, filter: 'grayscale(1) contrast(1.1)' }}
+          style={{ position: 'absolute', right: 0, bottom: 0, width: 260, opacity: 0.9, filter: 'grayscale(1) contrast(1.1)' }}
         />
 
         <div style={{ textAlign: 'center', position: 'relative', zIndex: 2 }}>
