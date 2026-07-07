@@ -1,29 +1,25 @@
 export const products = [
   {
-    id: 'moorish-american-health-manual',
-    title: 'Moorish American Health Manual',
-    category: 'Publications',
-    price: 8/ 17/ 28/,
-    edition: 'First Printing',
-    season: 'Archive I',
-    description: 'A foundational text recording the culture, principles, and history of the Moorish Science community for members and the public.',
-    image: '/assets/persona-01.jpg',
-  },
-  {
-    id: 'temple-regalia-sash',
-    title: 'Temple Regalia Sash',
-    category: 'Regalia',
-    price: 68,
-    edition: 'Ceremonial',
-    season: 'Archive I',
-    description: 'Hand-finished ceremonial regalia produced in limited runs for temple observances and member ceremonies.',
-    image: '/assets/persona-02.jpg',
-  },
+  id: 'moorish-american-health-manual',
+  title: 'Moorish American Health Manual',
+  category: 'Publications',
+  price: 28,          // default/display price
+  priceOptions: [
+    { label: 'Digital', price: 8 },
+    { label: 'Softcover', price: 17 },
+    { label: 'Hardcover', price: 28 },
+  ],
+  edition: 'First Printing',
+  season: 'Archive I',
+  description: 'A foundational text recording the culture, principles, and history of the Moorish Science community for members and the public.',
+  image: '/assets/persona-01.jpg',
+},
+
   {
     id: 'unity-pin',
     title: 'Unity Emblem Pin',
     category: 'Accessories',
-    price: 18,
+    price: 8,
     edition: 'Standard',
     season: 'Archive I',
     description: 'A small emblem denoting membership and unity, worn by members across the Americas.',
@@ -49,7 +45,7 @@ export const services = [
     duration: '60 min',
     price: 0,
     description: 'An introductory session covering the principles, history, and structure of Ministeria Occulta Mauroum for prospective members.',
-    calEventTypeId: membership-orientation, // replace with real id
+    calEventTypeId: 111111, // replace with real id
   },
   {
     id: 'mutual-assistance-consultation',
@@ -57,7 +53,7 @@ export const services = [
     duration: '45 min',
     price: 0,
     description: 'Confidential guidance for members seeking charitable assistance, employment support, or housing referrals.',
-    calEventTypeId: mutual-assistance-consultation, // replace with real id
+    calEventTypeId: 222222, // replace with real id
   },
   {
     id: 'cultural-education-session',
@@ -65,7 +61,7 @@ export const services = [
     duration: '60 min',
     price: 0,
     description: 'A guided study of Moorish science, religion, and culture for members and the general public.',
-    calEventTypeId: cultural-education-session, // replace with real id
+    calEventTypeId: 333333, // replace with real id
   },
   {
     id: 'general-reading',
@@ -73,7 +69,7 @@ export const services = [
     duration: 'Varies',
     price: 88,
     description: 'Reserve a place at an upcoming temple ceremony or observance.',
-    calEventTypeId: general-reading, // replace with real id
+    calEventTypeId: 444444, // replace with real id
   },
 ]
 
