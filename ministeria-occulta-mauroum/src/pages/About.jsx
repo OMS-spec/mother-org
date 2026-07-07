@@ -12,7 +12,7 @@ export default function About() {
         </FadeUp>
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6vw', marginTop: '12vh', alignItems: 'start' }}>
-          <ImageReveal src="/assets/about-01.jpg"  alt="Temple gathering"  style={{ height: '70vh' }}  imgStyle={{ objectPosition: 'center 50%' }} />
+          <ImageReveal src="/assets/about-01.jpg"  alt="Temple gathering"  style={{ height: '70vh' }}  imgStyle={{ objectPosition: 'center 20%' }} />
           <FadeUp delay={0.15}>
             <p className="eyebrow" style={{ marginBottom: 20 }}>Purpose</p>
             <p className="body-copy" style={{ maxWidth: 480, fontSize: 14 }}>
