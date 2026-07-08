@@ -10,7 +10,7 @@ export default function ArchivePreview() {
   const x = useTransform(scrollYProgress, [0, 1], ['4%', '-18%'])
 
   return (
-    <section className="section" ref={ref}>
+    <section className="section" ref={ref} style={{ overflow: 'hidden' }}>
       <div className="container">
         <FadeUp>
           <p className="eyebrow" style={{ textAlign: 'center', marginBottom: 8 }}>Records</p>
