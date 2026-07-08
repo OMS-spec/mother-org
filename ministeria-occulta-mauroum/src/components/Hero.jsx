@@ -11,8 +11,8 @@ export default function Hero() {
   return (
     <section ref={ref} style={{ position: 'relative', minHeight: '100vh', overflow: 'hidden', paddingTop: 120 }}>
       <div className="container" style={{ position: 'relative', height: '100%' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-          <div style={{ maxWidth: 260 }}>
+        <div className="hero-eyebrow-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <div style={{ maxWidth: 260 }}>
             <p className="eyebrow" style={{ marginBottom: 16 }}>Our Mission</p>
             <p className="body-copy">
               Ministeria Occulta Mauroum exists to educate, assist, and preserve
@@ -30,11 +30,11 @@ export default function Hero() {
 
         <div style={{ position: 'relative', marginTop: '4vh', display: 'flex', justifyContent: 'center' }}>
           <h1
-            className="headline"
-            style={{ position: 'absolute', top: '18%', left: '50%', transform: 'translateX(-50%)', zIndex: 1, whiteSpace: 'nowrap', color: '#000' }}
-          >
-            NOSCE TE IPSUM ET ALLAH
-          </h1>
+           className="headline hero-headline-overlay"
+          style={{ position: 'absolute', top: '18%', left: '50%', transform: 'translateX(-50%)', zIndex: 1, whiteSpace: 'nowrap', color: '#000' }}
+            >
+                    NOSCE TE IPSUM ET ALLAH
+            </h1>
           <motion.div
             style={{ y, opacity, position: 'relative', zIndex: 2, width: '46vw', minWidth: 320, maxWidth: 620 }}
             initial={{ opacity: 0 }}

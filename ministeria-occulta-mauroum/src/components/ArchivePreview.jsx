@@ -20,8 +20,8 @@ export default function ArchivePreview() {
 
       <motion.div style={{ x, display: 'flex', gap: 40, marginTop: '8vh', paddingLeft: '6vw' }}>
         {archiveCollections.map((c) => (
-          <div key={c.id} style={{ minWidth: 260, flexShrink: 0 }}>
-            <img src={c.image} alt={c.title} style={{ width: 260, height: 340, objectFit: 'cover' }} />
+          <div key={c.id} className="archive-card" style={{ minWidth: 260, flexShrink: 0 }}>
+             <img src={c.image} alt={c.title} style={{ width: 260, height: 340, objectFit: 'cover' }} />
             <p className="eyebrow" style={{ marginTop: 16 }}>{c.title}</p>
             <p className="body-copy" style={{ marginTop: 4 }}>{c.season} — {c.year}</p>
           </div>

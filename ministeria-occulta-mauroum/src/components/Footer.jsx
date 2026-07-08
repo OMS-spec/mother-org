@@ -15,11 +15,13 @@ export default function Footer() {
         <img
           src="/assets/footer-left.jpg"
           alt=""
+          className="footer-side-img"
           style={{ position: 'absolute', left: 0, bottom: -5, width: 260, opacity: 0.9, filter: 'grayscale(1) contrast(1.1)' }}
         />
         <img
           src="/assets/footer-right.jpg"
           alt=""
+          className="footer-side-img"
           style={{ position: 'absolute', right: 0, bottom: -5, width: 260, opacity: 0.9, filter: 'grayscale(1) contrast(1.1)' }}
         />
 
@@ -31,6 +33,7 @@ export default function Footer() {
         </div>
 
         <div
+          className="footer-grid"
           style={{
             display: 'flex', justifyContent: 'center', gap: '10vw', marginTop: '10vh',
             position: 'relative', zIndex: 2, flexWrap: 'wrap',

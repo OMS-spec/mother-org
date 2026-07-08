@@ -7,11 +7,13 @@ export default function CampaignStory() {
         <ImageReveal
           src="/assets/story-01.jpg"
           alt="Full length editorial portrait"
+          className="story-img-main"
           style={{ width: '58%', height: '78vh', marginLeft: '4%' }}
         />
         <ImageReveal
           src="/assets/story-02.jpg"
           alt="Detail editorial portrait"
+          className="story-img-detail"
           style={{
             width: '34%', height: '52vh', position: 'absolute',
             right: '6%', top: '18%', zIndex: 2,
@@ -20,7 +22,7 @@ export default function CampaignStory() {
 
         <FadeUp delay={0.2}>
           <h2
-            className="section-title"
+            className="section-title story-title"
             style={{
               position: 'relative', marginTop: '-14vh', marginLeft: '2%',
               maxWidth: '80%', zIndex: 3, color: '#000',
