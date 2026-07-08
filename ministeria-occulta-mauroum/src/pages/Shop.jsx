@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FadeUp, ImageReveal } from '../components/Reveal.jsx'
 import { products } from '../data/content.js'
-
-const SHOP_LIVE = false // flip to true when ready to launch
+import { SHOP_LIVE } from '../data/config.js'
 
 export default function Shop() {
   return (

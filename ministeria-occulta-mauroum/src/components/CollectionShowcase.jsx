@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { FadeUp, ImageReveal } from './Reveal.jsx'
 import { products } from '../data/content.js'
+import { SHOP_LIVE } from '../data/config.js'
+
 
 export default function CollectionShowcase() {
   const featured = products[0]
