@@ -30,7 +30,7 @@ export default function GlyphTile({ index = 0, width = 64, height = 90 }) {
       aria-hidden="true"
     >
       {/* thin circle seal border */}
-      ircle cx="32" cy="66" r="16" fill="none" stroke="currentColor" strokeWidth="0.75" opacity="0.5" />
+      ircle cx="32" cy="66" r="16" fill="none" stroke="currentColor" strokeWidth="0.75" opacity="0.5" /
 
       {/* infinity mark, top */}
       <path
