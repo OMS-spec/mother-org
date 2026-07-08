@@ -23,9 +23,13 @@ export default function Booking() {
     fetch(`/api/cal-slots?eventTypeId=${service.calEventTypeId}&date=${form.date}`)
       .then((r) => r.json())
       .then((data) => {
-        const daySlots = Object.values(data.slots ?? data.data ?? {})[0] ?? []
-        setSlots(daySlots)
-      })
+  let daySlots = data.slots ?? data.data ?? []
+  if (!Array.isArray(daySlots)) {
+    daySlots = Object.values(daySlots)[0] ?? []
+  }
+  setSlots(daySlots)
+})
+
       .catch(() => setError('Could not load available times.'))
       .finally(() => setLoadingSlots(false))
   }, [form.date, service.calEventTypeId])
