@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import { FadeUp } from './Reveal.jsx'
-
-const filmstrip = Array.from({ length: 10 }, (_, i) => `/assets/strip-${(i % 5) + 1}.jpg`)
+import GlyphTile from './GlyphTile.jsx'
 
 export default function FeatureBanner() {
   return (
@@ -21,7 +20,7 @@ export default function FeatureBanner() {
             transition={{ duration: 40, ease: 'linear', repeat: Infinity }}
           >
             {[...filmstrip, ...filmstrip].map((src, i) => (
-              <img key={i} src={src} alt="" style={{ height: 90, width: 64, objectFit: 'cover' }} />
+              <GlyphTile key={i} src={src} alt="" style={{ height: 90, width: 64, objectFit: 'cover' }} />
             ))}
           </motion.div>
         </div>
