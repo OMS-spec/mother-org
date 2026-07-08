@@ -14,7 +14,7 @@ export default function FeatureBanner() {
           }}
         >
           <motion.div
-            style={{ display: 'flex', gap: 12 }}
+            style={{ display: 'none', gap: 12 }}
             initial={{ x: 0 }}
             animate={{ x: '-50%' }}
             transition={{ duration: 40, ease: 'linear', repeat: Infinity }}
