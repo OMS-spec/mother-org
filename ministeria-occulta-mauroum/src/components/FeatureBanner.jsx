@@ -7,20 +7,20 @@ export default function FeatureBanner() {
     <section className="section" style={{ overflow: 'hidden', textAlign: 'center' }}>
       <div style={{ position: 'relative' }}>
         <div
-  style={{
-    position: 'absolute', top: '50%', left: '-10vw', width: '120vw',
-    transform: 'translateY(-50%)', overflow: 'hidden', opacity: 0.5, zIndex: 0,
-  }}
->
-
+          style={{
+            position: 'absolute', top: '50%', left: '-10vw', width: '120vw',
+            transform: 'translateY(-50%)', overflow: 'hidden', opacity: 0.5, zIndex: 0,
+            color: 'var(--accent)',
+          }}
+        >
           <motion.div
             style={{ display: 'flex', gap: 12 }}
             initial={{ x: 0 }}
             animate={{ x: '-50%' }}
             transition={{ duration: 40, ease: 'linear', repeat: Infinity }}
           >
-            {[...filmstrip, ...filmstrip].map((src, i) => (
-              <GlyphTile key={i} src={src} alt="" style={{ height: 90, width: 64, objectFit: 'cover' }} />
+            {Array.from({ length: 20 }, (_, i) => (
+              <GlyphTile key={i} index={i} />
             ))}
           </motion.div>
         </div>
