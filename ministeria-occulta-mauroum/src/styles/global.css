@@ -182,7 +182,7 @@ button {
   .story-img-detail { display: none !important; }
   .story-title { margin-top: 24px !important; max-width: 100% !important; }
 
-  .footer-side-img { display:  width: 90px !important; opacity: 0.5 !important; bottom: -2px !important; }
+  .footer-side-img { width: 90px !important; opacity: 0.5 !important; bottom: -2px !important; }
   .footer-grid { gap: 32px !important; }
 
   .archive-card img { width: 180px !important; height: 240px !important; }
