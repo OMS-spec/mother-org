@@ -30,26 +30,37 @@ export default function CollectionShowcase() {
             </div>
 
             {!SHOP_LIVE && (
-              <div
-                style={{
-                  position: 'absolute', inset: 0, display: 'flex',
-                  alignItems: 'center', justifyContent: 'center',
-                  pointerEvents: 'none',
-                }}
+              <>
+               <div
+            style={{
+             position: 'absolute',
+               inset: 0,
+                backdropFilter: 'blur(20px)',
+            WebkitBackdropFilter: 'blur(20px)',
+            background: 'rgba(245, 245, 245, 0.75)',
+             }}
+              />
+
+             <div
+            style={{
+            position: 'absolute', inset: 0, display: 'flex',
+            alignItems: 'center', justifyContent: 'center',
+            pointerEvents: 'none',
+            }}
+           >
+             <p
+             className="eyebrow"
+             style={{
+             fontSize: '1.4rem', letterSpacing: '0.2em',
+             background: 'var(--bg)', padding: '12px 28px',
+             border: '1px solid var(--border)',
+             }}
               >
-                <p
-                  className="eyebrow"
-                  style={{
-                    fontSize: '1.4rem', letterSpacing: '0.2em',
-                    background: 'var(--bg)', padding: '12px 28px',
-                    border: '1px solid var(--border)',
-                  }}
-                >
-                  Collection Arriving Soon
-                </p>
-              </div>
-            )}
-          </div>
+             Collection Arriving Soon
+            </p>
+            </div>
+            </>
+             )}
 
           <FadeUp>
             <p className="eyebrow">Collection</p>
