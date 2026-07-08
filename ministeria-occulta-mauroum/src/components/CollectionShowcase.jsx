@@ -57,10 +57,11 @@ export default function CollectionShowcase() {
              }}
               >
              Collection Arriving Soon
-            </p>
-            </div>
-            </>
-             )}
+                   </p>
+                </div>
+               </>
+              )}
+          </div>
 
           <FadeUp>
             <p className="eyebrow">Collection</p>
