@@ -22,11 +22,18 @@ export default function Archive() {
                 }}
               >
                 <ImageReveal src={c.image} alt={c.title} style={{ height: 320 }} />
-                <div>
-                  <p className="eyebrow" style={{ color: 'var(--text-secondary)' }}>{c.season} — {c.year}</p>
+                                <div>
+                  <p className="eyebrow" style={{ color: 'var(--text-secondary)' }}>
+                    {c.season} <span aria-hidden="true">★</span> {c.year}
+                  </p>
                   <h2 className="section-title" style={{ marginTop: 16, fontSize: 'clamp(28px, 4vw, 48px)' }}>
                     {c.title}
                   </h2>
+                  {c.description && (
+                    <p style={{ marginTop: 16, color: 'var(--text-secondary)', maxWidth: 560 }}>
+                      {c.description}
+                    </p>
+                  )}
                 </div>
               </div>
             </FadeUp>

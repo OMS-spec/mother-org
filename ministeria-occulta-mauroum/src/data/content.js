@@ -75,9 +75,10 @@ export const services = [
 
 
 export const archiveCollections = [
-  { id: 'module', title: 'Module', season: 'Records', year: '2020', image: '/assets/archive-01.jpg' },
-  { id: 'seoulsoul', title: 'Seoulsoul', season: 'Records', year: '2018', image: '/assets/archive-02.jpg' },
-  { id: 'juunjset', title: 'Founding Session', season: 'Records', year: '2022', image: '/assets/archive-03.jpg' },
-  { id: 'skin', title: 'Skin', season: 'Records', year: '2018', image: '/assets/archive-04.jpg' },
-  { id: 'lapped', title: 'Lapped', season: 'Records', year: '2018', image: '/assets/archive-05.jpg' },
+  { id: 'module', title: 'Module', season: 'Records', year: '2020', image: '/assets/archive-01.jpg', description: 'A record of the founding module and its early observances.' },
+  { id: 'seoulsoul', title: 'Seoulsoul', season: 'Records', year: '2018', image: '/assets/archive-02.jpg', description: 'Chronicles from the Seoulsoul chapter and its cultural gatherings.' },
+  { id: 'juunjset', title: 'Founding Session', season: 'Records', year: '2022', image: '/assets/archive-03.jpg', description: 'Minutes and reflections from the temple's founding session.' },
+  { id: 'skin', title: 'Skin', season: 'Records', year: '2018', image: '/assets/archive-04.jpg', description: 'A study of identity and presence within the community.' },
+  { id: 'lapped', title: 'Lapped', season: 'Records', year: '2018', image: '/assets/archive-05.jpg', description: 'Reflections on cycles, seasons, and communal continuity.' },
 ]
+
