@@ -68,7 +68,7 @@ export const services = [
     title: 'General Reading',
     duration: '90 min',
     price: 0,
-    description: 'Reserve a place at an upcoming temple ceremony or observance.',
+    description: 'A multifaceted reading aimed to assist in providing insight and guidance for members and the general public.',
     calEventTypeId: 6217315, // replace with real id
   },
 ]
