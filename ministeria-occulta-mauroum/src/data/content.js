@@ -66,8 +66,8 @@ export const services = [
   {
     id: 'general-reading',
     title: 'General Reading',
-    duration: 'Varies',
-    price: 88,
+    duration: '90 min',
+    price: 80,
     description: 'Reserve a place at an upcoming temple ceremony or observance.',
     calEventTypeId: 6217315, // replace with real id
   },
@@ -75,10 +75,10 @@ export const services = [
 
 
 export const archiveCollections = [
-  { id: 'module', title: 'Module', season: 'Records', year: '2020', image: '/assets/archive-01.jpg', description: 'A record of the founding module and its early observances.' },
-  { id: 'seoulsoul', title: 'Seoulsoul', season: 'Records', year: '2018', image: '/assets/archive-02.jpg', description: 'Chronicles from the Seoulsoul chapter and its cultural gatherings.' },
-  { id: 'juunjset', title: 'Founding Session', season: 'Records', year: '2022', image: '/assets/archive-03.jpg', description: 'Minutes and reflections from the temple's founding session.' },
-  { id: 'skin', title: 'Skin', season: 'Records', year: '2018', image: '/assets/archive-04.jpg', description: 'A study of identity and presence within the community.' },
-  { id: 'lapped', title: 'Lapped', season: 'Records', year: '2018', image: '/assets/archive-05.jpg', description: 'Reflections on cycles, seasons, and communal continuity.' },
+  { id: 'moorish drama', title: 'The Great Moorish Drama', season: 'Records', year: '1927', image: '/assets/archive-01.jpg', description: 'A record of the Moorish Arts and its early observances.' },
+  { id: 'advertisment', title: 'Advertisment', season: 'Records', year: '1928', image: '/assets/archive-02.jpg', description: 'An original ad from the Moorish Guide National Newspaper.' },
+  { id: 'moorish dance', title: 'Big Mid-Summer Dance', season: 'Records', year: '1928', image: '/assets/archive-03.jpg', description: 'The Moorish National Business Club, No 2 hosted and event for all to attend.' },
+  { id: 'sisters aux', title: 'The Moorish National Sisters Auxiliary', season: 'Records', year: '1929', image: '/assets/archive-04.jpg', description: 'A record from the Moorish Guide National Edition of the organization of the Moorish Natinal Sisters Auxiliary.' },
+  { id: 'testimonials', title: 'Testimonials', season: 'Records', year: '1929', image: '/assets/archive-05.jpg', description: 'A historical record of testimonals for products manufactured by the Moorish Manufacturing Corporation.' },
 ]
 
