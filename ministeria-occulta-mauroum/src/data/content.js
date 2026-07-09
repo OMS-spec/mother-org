@@ -67,7 +67,7 @@ export const services = [
     id: 'general-reading',
     title: 'General Reading',
     duration: '90 min',
-    price: 80,
+    price: 0,
     description: 'Reserve a place at an upcoming temple ceremony or observance.',
     calEventTypeId: 6217315, // replace with real id
   },
@@ -77,7 +77,7 @@ export const services = [
 export const archiveCollections = [
   { id: 'moorish drama', title: 'The Great Moorish Drama', season: 'Records', year: '1927', image: '/assets/archive-01.jpg', description: 'A record of the Moorish Arts and its early observances.' },
   { id: 'advertisment', title: 'Advertisment', season: 'Records', year: '1928', image: '/assets/archive-02.jpg', description: 'An original ad from the Moorish Guide National Newspaper.' },
-  { id: 'moorish dance', title: 'Big Mid-Summer Dance', season: 'Records', year: '1928', image: '/assets/archive-03.jpg', description: 'The Moorish National Business Club, No 2 hosted and event for all to attend.' },
+  { id: 'moorish dance', title: 'Mid-Summer Dance', season: 'Records', year: '1928', image: '/assets/archive-03.jpg', description: 'The Moorish National Business Club, No 2 hosted and event for all to attend.' },
   { id: 'sisters aux', title: 'The Moorish National Sisters Auxiliary', season: 'Records', year: '1929', image: '/assets/archive-04.jpg', description: 'A record from the Moorish Guide National Edition of the organization of the Moorish Natinal Sisters Auxiliary.' },
   { id: 'testimonials', title: 'Testimonials', season: 'Records', year: '1929', image: '/assets/archive-05.jpg', description: 'A historical record of testimonals for products manufactured by the Moorish Manufacturing Corporation.' },
 ]
